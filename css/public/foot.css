@@ -1,0 +1,51 @@
+.footer{
+    margin: 0px 0px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e7e7e7;
+}
+
+.footer_ensure{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.footer_desc{
+    border-top-style: solid; /*元素上边框样式*/
+    border-top-width: 1px; /*元素上边框宽度*/
+    border-top-color: #e7e7e7; /*元素上边框颜色*/
+    padding-top: 30px; /*上内边距*/
+    margin: 0px 20px;
+}
+
+.footer_desc .descColumn{
+    width: 20%;
+    float: left;
+    padding-left: 15px;
+}
+
+.footer_desc .descColumn .descColumnTitle{
+    color: #646464;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer_desc a{
+    display: block;
+    padding-top: 3px;
+}
+
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+a{
+    color: #999999;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #C40000;
+}
